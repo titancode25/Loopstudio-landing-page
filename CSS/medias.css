@@ -1,0 +1,258 @@
+@media screen and (max-width: 800px){
+    body .home nav{
+        position: absolute;
+        /* display: none; */
+        width: 100vw;
+        height: 100vh;
+        /* background-color: black; */
+        color: white;
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-right: 0;
+    }
+
+    body #menu-humburger{
+        display: block;
+    }
+
+    body .home nav img{
+        padding-left: 8%;
+    }
+
+    .logo-hm{
+        height: 30px;
+    }
+
+    .logos{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 6%;
+    }
+    body .home nav ul{
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 8%;
+        width: 92%;
+        height: 100%;
+        transition: .2s;
+        right: 100%;
+        position: absolute;
+    }
+    .home .home-container{
+        width: 90%;
+        align-self: center;
+        margin: auto 0;
+    }
+
+    .home .home-container h1{
+        font-size: 10.8vw;
+        line-height: 11vh;
+    }
+
+    body .home nav ul li{
+        margin: 12px 0px;
+    }
+
+    body .home nav ul li a{
+        font-size: 30px;
+        font-weight: lighter;
+        font-family: 'Josefin sans';
+    }
+
+    .creations .section-3-container{
+        grid-template-columns: 90%;
+        grid-template-rows: 240px 240px 240px 240px 240px 240px 240px 240px ;
+        grid-row-gap: 50px;
+        grid-column-gap: 50px;
+    }
+
+    body #menu-close-btn{
+        color: white;
+        height: 30px;
+    }
+
+
+    /* -----x -----x Home Section -----x-----x */
+
+    body .vr{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20%;
+    }
+
+    .vr .text-section2{
+        margin-top: 60px;
+        margin-left: 0px;
+        margin-bottom: 10%;
+        background-color: white;
+        padding: 0;
+    }
+
+    .vr-img{
+        width: 90vw;
+    }
+
+    body .vr .text-section2 h1 {
+        font-weight: lighter;
+        font-size: 50px;
+        margin: 0;
+        text-align: center;
+        font-family: 'Josefin sans';
+    }
+
+    body .vr .text-section2 p{
+        text-align: center;
+    font-size: 18px;
+    }
+
+    .response{
+        display: none;
+    }
+    body .dis-none{
+        display: block;
+    width: 180px;
+    height: 62px;
+    padding: 6px 10px;
+    color: black;
+    align-self: center;
+    font-size: 21px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    border: 3px solid black;
+    background-color: white;
+    }
+
+
+    /* ----x -- Vr Section --x---- */
+
+    body .creations{
+        padding: 0;
+    }
+
+    body .creations .heading-section3{
+        justify-content: center;
+    }
+
+    body .creations .heading-section3 h1{
+        text-align: center;
+    }
+
+    body .section-3-container{
+        justify-content: center;
+    }
+
+    .section-3-container #grid-tab-1{
+        background: url(/images/mobile/image-deep-earth.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3-container #grid-tab-2{
+        background: url(/images/mobile/image-night-arcade.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3-container #grid-tab-3{
+        background: url(/images/mobile/image-soccer-team.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3-container #grid-tab-4{
+        background: url(/images/mobile/image-grid.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3-container #grid-tab-5{
+        background: url(/images/mobile/image-from-above.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3-container #grid-tab-6{
+        background: url(/images/mobile/image-pocket-borealis.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3-container #grid-tab-7{
+        background: url(/images/mobile/image-curiosity.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-3-container #grid-tab-8{
+        background: url(/images/mobile/image-fisheye.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    /* --x---- Creations Section ----x */
+
+    body footer{
+        height: auto;
+    }
+
+    .disnoo{
+        display: none;
+    }
+
+    footer .dis-none1{
+        display: flex;
+    }
+
+    body footer .social-and-logo{
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    body footer .footer-links{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    body footer .footer-links ul{
+        margin: 20px 0;
+    }
+
+    body footer .footer-links .social-icons img{
+        margin: 0 12px;
+    }
+
+    body footer .footer-links p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px){
+    body .vr .text-section2 h1{
+        font-size: 37px;
+    }
+
+    body #menu-humburger{
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 340px){
+    body .vr .text-section2 h1{
+        font-size: 35px;
+    }
+
+    .home .home-container h1{
+        line-height: 40px;
+    }
+
+    .home nav img{
+        height: 25px;
+    }
+}
